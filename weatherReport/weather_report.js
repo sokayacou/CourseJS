@@ -18,7 +18,7 @@ function showweatherDetails(event) {
 }
 
 const city = document.getElementById('city').value;
-    const apiKey = 'eeb15f60dfe553158f1dfa2492e9c7d7'; 
+    const apiKey = 'YOUR_API_KEY'; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 document.getElementById('weatherForm').addEventListener('submit',showweatherDetails );
